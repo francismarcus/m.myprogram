@@ -7299,6 +7299,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-web@^5.4.4:
+  version "5.6.4"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.6.4.tgz#8520f9e7e8daa9e0ab8343c628c3f470800088a4"
+  integrity sha512-eU+21Wo/RSi4i260S7fDUxfhNJ9PhfzUJMVQpip0yZd19oJ18jrNCoSQKVUzjC2TzOjqumlLZXR636ezKoWNQg==
+
 lower-case@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
@@ -9896,6 +9901,13 @@ react-native-view-shot@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-native-view-shot/-/react-native-view-shot-3.0.2.tgz#daccaec5b8038a680b17533ff7e72876e68c7d0d"
   integrity sha512-JZOkGo2jzSX2b7N6N2uDr0wQjSz+QmBtY8jzeo0XJY6bLOfaY5nmWyYxDmDRoSpKiFkGTCkyhUqNnjo6lXOtEw==
+
+react-native-web-lottie@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-web-lottie/-/react-native-web-lottie-1.2.0.tgz#92ab136b3a7661433971e743ddb02d784eff4465"
+  integrity sha512-hx2um+Il0dhua1b84716vMmQWIRzQCKBFQ5Hxi1pLw10gAUEZ6zk+ppeE4FQiCNnbGXa7Zjryjzgsd9o0yRxHg==
+  dependencies:
+    lottie-web "^5.4.4"
 
 react-native-web@~0.11.7:
   version "0.11.7"

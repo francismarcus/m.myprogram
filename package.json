@@ -5,7 +5,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build": "next build"
+    "build": "next build",
+    "dev": "next dev"
   },
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
@@ -25,6 +26,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-web": "~0.11.7",
+    "react-native-web-lottie": "^1.2.0",
     "styled-components": "^5.0.1",
     "use-dark-mode": "^2.3.1",
     "yup": "^0.28.1"
