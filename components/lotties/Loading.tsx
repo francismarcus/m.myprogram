@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 
 export default () => (
     <Flexbox>
-        <Lottie source={require('./hive.json')} loop autoPlay style={{ width: '50%'}}/>
+        <Lottie source={require('./hive.json')} autoPlay style={{ width: '75%'}}/>
     </Flexbox>
 );
 

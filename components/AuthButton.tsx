@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components/native';
 
-export default ({ children, onPress }: { children: string; onPress?: () => void }) => (
-	<StyledTouchableHighlight onPress={onPress}>
+export default ({ children }) => (
+	<StyledTouchableHighlight>
 		<StyledText>{children}</StyledText>
 	</StyledTouchableHighlight>
 );

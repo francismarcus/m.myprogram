@@ -6,7 +6,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "build": "next build",
-    "dev": "next dev"
+    "dev": "next dev",
+    "generate": "graphql-codegen --config codegen.js"
   },
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
@@ -34,6 +35,11 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@expo/next-adapter": "^2.0.5",
+    "@graphql-codegen/cli": "^1.12.2",
+    "@graphql-codegen/introspection": "^1.12.2",
+    "@graphql-codegen/typescript": "^1.12.2",
+    "@graphql-codegen/typescript-operations": "^1.12.2",
+    "@graphql-codegen/typescript-react-apollo": "^1.12.2",
     "@types/react": "~16.9.0",
     "@types/react-native": "~0.60.23",
     "@types/styled-components": "^4.4.3",
