@@ -40,8 +40,3 @@ declare module "styled-components" {
     };
   }
 }
-
-
-declare module 'console' {
-  export = typeof import("console");
-}

@@ -38,7 +38,7 @@ export default () => {
 						}
 					});
 					await localStorage.setItem('token', token);
-					//return Router.push('/');
+					return Router.push('/');
 				}
 			}}
 		>{({ handleSubmit }) => (
